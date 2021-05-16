@@ -16,7 +16,7 @@ namespace CBFSTest
             try
             {
                 var testFilter = new CBFSFilterTest();
-                var installDrivers = false;
+                var installDrivers = true;
                 var filterRules = new Dictionary<string, bool>(5);
                 filterRules.Add("OnBeforeCreateFile", false);
                 filterRules.Add("OnBeforeWriteFile", false);
